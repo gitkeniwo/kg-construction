@@ -67,9 +67,16 @@ Alternatively, you can start a simple [streamlit](https://streamlit.io) app to v
 streamlit run showcase.py
 ```
 
+![image](https://github.com/user-attachments/assets/a651f53e-be55-4ef3-9308-74198d446c9e)
+
+
 #### Neo4j 
 
 The notebook also provides a guide on how to export the networkx graph to a neo4j database. 
+
+![image](https://github.com/user-attachments/assets/d75bac19-d456-4fd8-ad5a-160518a7f92a)
+
+
 You can choose between a local neo4j instance or a free-tier AuraDB instance.
 
 To set a local neo4j instance, you can follow the instructions on their [official website](https://neo4j.com/download/).
