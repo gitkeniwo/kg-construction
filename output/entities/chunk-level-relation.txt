@@ -1,0 +1,11 @@
+[("Scrooge", "nephew", "family relation", "high"), ("Scrooge", "nephew", "kinship", "high"), 
+("Scrooge", "nephew", "blood relation", "high"), ("Scrooge", "nephew", "relative", "high"), 
+("Scrooge's nephew", "Scrooge", "family member", "high"), 
+("Scrooge", "fog and frost", "cause of physical state", "medium"), 
+("Scrooge's nephew", "fog and frost", "cause of physical state", "medium"), 
+("Scrooge", "nephew", "opposite in wealth", "medium"), 
+("Scrooge", "nephew", "opponent in argument", "high"), 
+("Scrooge", "nephew", "family member", "high"), 
+("Scrooge's nephew", "Christmas", "proponent of", "medium"), 
+("Scrooge", "Christmas", "opponent of", "high"), 
+("Scrooge", "fog and frost", "cause of physical state", "low")]

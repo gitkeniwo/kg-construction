@@ -1,0 +1,111 @@
+system: >
+  You are to assist the user to construct a knowledge graph for a novel. 
+  Help identify the most important entities from the text.
+
+# Entity type generation command
+entity-type-generation: |
+  The user is working on extracting entities from a book to build a knowledge graph. You goal is to provide a list of possible entity types that are commonly present in knowledge graphs for novels.
+  Please reply in the following format:
+  ["entity_type1", "entity_type2", "entity_type3", ...]
+
+
+# chunk-level-entity-extraction command
+clee: |
+  You are provided with a text chunk from a novel and a list of entity types. 
+  Your task is to identify all entities in the given text chunk and their corresponding entity types, following these instructions:
+  
+  In terms of entity identification:
+    - Extract the important entities from the text chunk that contribute to the plot or are frequently mentioned. Leave out trivial and insignificant entities.
+    - Avoid ambiguity in non-human entities. e.g. "Night", "Year", "Seven" should not be considered entities unless they are specific time periods in the text.
+    - Try to avoid using relative pronouns, jobs, or titles as entities if the person has a name.
+    - Avoid repetition of entities. e.g. "Scrooge's nephew" and "nephew" should be counted as one entity, unless they refer to different people in the text.
+  
+  In terms of formatting:
+  - Answer directly without using introductory phrases and without any other remarks or comments.
+  - Provide the result like [("Jacob Marley", "Person"), ("Scrooge", "Person") ...]
+  - No nested lists and No duplicate entities.
+
+  The text is:
+  {text}
+  
+  The entity types are:
+  {entity_type}
+
+# entity-aggregation command
+# in the form of [("entity", "entity_type"), ...],
+ea: |
+  You are provided with a list of extracted entities and their entity type, and a list of all entity types.
+  you goal is to group them into a list of unique entities, following these instructions:
+  
+  In terms of grouping:
+    - Merge mentions that belong to the same character. 
+      - e.g. "Marley", "Old Marley", "Jacob Marley" should be merged into one entity.
+    - No duplicate entities should be included in the list.
+  
+  In terms of formatting:
+    - (Important) Answer directly without using introductory phrases and without any other remarks or comments.
+    - The entities should be in a python list format, with no nested lists. e.g. You answer should be like [("Jacob Marley", "Person"), ("Scrooge", "Person") ...]
+    - No duplicates.
+  
+  The list of entities extracted from the text is:
+  {entities}
+  
+  The entity types are:
+  {entity_type}
+
+# stave-level-entity-aggregation command
+# in the form of [("entity", "entity_type"), ...],
+stave-aggregation: |
+  You goal is to further group or merge extracted entities into a list of unique entities, following these instructions:
+  
+  You will be offered with:
+    - Given a list of extracted entities and their entity type, 
+    - and a list of all entity types in key-value pairs.
+    - and a list of previous chunk of processed entity list. If it is empty, you can ignore this.
+  
+  In terms of grouping:
+    - Merge mentions that belong to the same character. 
+      - e.g. "Marley", "Old Marley", "Jacob Marley" should be merged into one entity.
+    - No duplicate entities should be included in the list.
+  
+  In terms of formatting:
+    - (Important) Answer directly without using introductory phrases and without any other remarks or comments.
+    - The entities should be in a python list format, with no nested lists
+    - Also provide the keys of the corresponding entity types of the entities
+    - e.g. [("Marley", "per"), ("Scrooge", "per"), ...]
+    - No duplicate entities should be included in the list.
+  
+  The list of entities extracted from the text is:
+  {entities}
+  
+  The entity types are:
+  {entity_type}
+  
+  The list of previous chunk of entity list is
+  {prev_entities}
+
+input_variables:
+  clee:
+    - text
+    - entity_type
+
+  ea:
+    - entities
+    - entity_type
+
+entity_types:
+  - Person
+  - Organization
+  - Location
+  - Event
+  - Object
+  - Concept
+
+chat_model_params:
+  llama3.1:
+    model: "llama3.1:8b"
+    temperature: 0.2
+    top_k: 10
+    top_p: 0.6
+    num_predict: 2048
+    base_url: "http://127.0.0.1:11434"

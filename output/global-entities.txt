@@ -1,0 +1,1 @@
+[("Jacob Marley", "Person"), ("Scrooge", "Person"), ("Bob Cratchit", "Person"), ("Tiny Tim", "Person"), ("Fred", "Person"), ("Marley", "Person"), ("Christmas Time", "Concept"), ("Past", "Concept"), ("Present", "Concept"), ("Future", "Concept"), ("Christmas Day", "Event"), ("Turkey", "Object")]

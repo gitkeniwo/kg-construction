@@ -1,0 +1,1618 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="edge" attr.name="relation_type" attr.type="string" />
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Scrooge">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Marley">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Marley's Ghost">
+      <data key="d0">Object</data>
+    </node>
+    <node id="Bob Cratchit">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Tiny Tim">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Jacob Marley">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Christmas Time">
+      <data key="d0">Event</data>
+    </node>
+    <node id="Past">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="Present">
+      <data key="d0">Object</data>
+    </node>
+    <node id="Future">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="Fred">
+      <data key="d0">Person</data>
+    </node>
+    <node id="nephew">
+      <data key="d0">Person</data>
+    </node>
+    <node id="City">
+      <data key="d0">Location</data>
+    </node>
+    <node id="clerk in the tank">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="Scrooge's nephew">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Marley's clerk">
+      <data key="d0">Person</data>
+    </node>
+    <node id="clerk">
+      <data key="d0">Person</data>
+    </node>
+    <node id="gentleman">
+      <data key="d0">Person</data>
+    </node>
+    <node id="gentlemen">
+      <data key="d0">Person</data>
+    </node>
+    <node id="labourers">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="men and boys">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Lord Mayor">
+      <data key="d0">Person</data>
+    </node>
+    <node id="cooks and butlers">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="little tailor">
+      <data key="d0">Person</data>
+    </node>
+    <node id="wife and baby">
+      <data key="d0">Person</data>
+    </node>
+    <node id="his chambers">
+      <data key="d0">Location</data>
+    </node>
+    <node id="the yard">
+      <data key="d0">Location</data>
+    </node>
+    <node id="Marley's face">
+      <data key="d0">Object</data>
+    </node>
+    <node id="door">
+      <data key="d0">Object</data>
+    </node>
+    <node id="candle">
+      <data key="d0">Object</data>
+    </node>
+    <node id="hall">
+      <data key="d0">Location</data>
+    </node>
+    <node id="saucepan">
+      <data key="d0">Object</data>
+    </node>
+    <node id="gruel">
+      <data key="d0">Object</data>
+    </node>
+    <node id="cravat">
+      <data key="d0">Object</data>
+    </node>
+    <node id="dressing-gown">
+      <data key="d0">Object</data>
+    </node>
+    <node id="slippers">
+      <data key="d0">Object</data>
+    </node>
+    <node id="nightcap">
+      <data key="d0">Object</data>
+    </node>
+    <node id="bell">
+      <data key="d0">Object</data>
+    </node>
+    <node id="chain">
+      <data key="d0">Object</data>
+    </node>
+    <node id="Ghost of Jacob Marley">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Jacob">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Mankind">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="Charity">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="Business">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="Ebenezer">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Ghost of Christmas Present">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Three Spirits">
+      <data key="d0">Event</data>
+    </node>
+    <node id="wandering Spirits">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="window">
+      <data key="d0">Object</data>
+    </node>
+    <node id="night">
+      <data key="d0">Event</data>
+    </node>
+    <node id="Christmas Day">
+      <data key="d0">Event</data>
+    </node>
+    <node id="clock">
+      <data key="d0">Object</data>
+    </node>
+    <node id="repeater">
+      <data key="d0">Object</data>
+    </node>
+    <node id="Mr. Ebenezer Scrooge">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Ghost of Christmas Past">
+      <data key="d0">Person</data>
+    </node>
+    <node id="boy">
+      <data key="d0">Person</data>
+    </node>
+    <node id="road">
+      <data key="d0">Location</data>
+    </node>
+    <node id="market-town">
+      <data key="d0">Location</data>
+    </node>
+    <node id="bridge">
+      <data key="d0">Location</data>
+    </node>
+    <node id="church">
+      <data key="d0">Location</data>
+    </node>
+    <node id="winding river">
+      <data key="d0">Location</data>
+    </node>
+    <node id="gate">
+      <data key="d0">Location</data>
+    </node>
+    <node id="post">
+      <data key="d0">Object</data>
+    </node>
+    <node id="tree">
+      <data key="d0">Object</data>
+    </node>
+    <node id="Spirit">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="Ali Baba">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Valentine">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Orson">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Robin Crusoe">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Parrot">
+      <data key="d0">Object</data>
+    </node>
+    <node id="Friday">
+      <data key="d0">Event</data>
+    </node>
+    <node id="Scrooe">
+      <data key="d0">Person</data>
+    </node>
+    <node id="boy singing a Christmas Carol">
+      <data key="d0">Event</data>
+    </node>
+    <node id="Fan">
+      <data key="d0">Object</data>
+    </node>
+    <node id="Father">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Master Scrooge">
+      <data key="d0">Person</data>
+    </node>
+    <node id="schoolmaster">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Dick Wilkins">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Fezziwig">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Dick">
+      <data key="d0">Person</data>
+    </node>
+    <node id="the lads">
+      <data key="d0">Miscellaneous</data>
+    </node>
+    <node id="Mrs. Fezziwig">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Miss Fezziwigs">
+      <data key="d0">Person</data>
+    </node>
+    <node id="young men and women employed in the business">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="housemaid">
+      <data key="d0">Person</data>
+    </node>
+    <node id="cousin the baker">
+      <data key="d0">Person</data>
+    </node>
+    <node id="cook">
+      <data key="d0">Person</data>
+    </node>
+    <node id="brother's particular friend the milkman">
+      <data key="d0">Person</data>
+    </node>
+    <node id="boy from over the way">
+      <data key="d0">Person</data>
+    </node>
+    <node id="master">
+      <data key="d0">Person</data>
+    </node>
+    <node id="girl from next door but one">
+      <data key="d0">Person</data>
+    </node>
+    <node id="mistress">
+      <data key="d0">Person</data>
+    </node>
+    <node id="fiddler">
+      <data key="d0">Object</data>
+    </node>
+    <node id="Mr. Fezziwig">
+      <data key="d0">Person</data>
+    </node>
+    <node id="apprentices">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="Girl">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Belle">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Mr. Scrooge">
+      <data key="d0">Person</data>
+    </node>
+    <node id="his wife">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Marley's partner">
+      <data key="d0">Person</data>
+    </node>
+    <node id="adjacent room">
+      <data key="d0">Object</data>
+    </node>
+    <node id="voice">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="Christmas morning">
+      <data key="d0">Event</data>
+    </node>
+    <node id="city streets">
+      <data key="d0">Location</data>
+    </node>
+    <node id="Great Britain">
+      <data key="d0">Location</data>
+    </node>
+    <node id="people">
+      <data key="d0">Person</data>
+    </node>
+    <node id="shopkeepers">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="poulterers">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="fruiterers">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="girl">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Grocer">
+      <data key="d0">Person</data>
+    </node>
+    <node id="customers">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="each other">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="counter">
+      <data key="d0">Object</data>
+    </node>
+    <node id="aprons">
+      <data key="d0">Object</data>
+    </node>
+    <node id="dinner-carriers">
+      <data key="d0">Object</data>
+    </node>
+    <node id="bakers">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="Mrs. Cratchit">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Belinda Cratchit">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Master Peter Cratchit">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Martha">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Cratchits">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="Master Peter">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Miss Belinda">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Bob">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Christmas pudding">
+      <data key="d0">Object</data>
+    </node>
+    <node id="family">
+      <data key="d0">Miscellaneous</data>
+    </node>
+    <node id="Christmas goose">
+      <data key="d0">Object</data>
+    </node>
+    <node id="Peter Cratchit">
+      <data key="d0">Person</data>
+    </node>
+    <node id="milliner">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Miners">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="earth">
+      <data key="d0">Location</data>
+    </node>
+    <node id="Spirits of all Three">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="niece">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Scrooge's niece">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Topper">
+      <data key="d0">Person</data>
+    </node>
+    <node id="the plump sister">
+      <data key="d0">Person</data>
+    </node>
+    <node id="sister">
+      <data key="d0">Person</data>
+    </node>
+    <node id="plump sister">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Uncle Scrooge">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Ignorance">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="Want">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="Doom">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="Ghost of Christmas Yet to Come">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Ghost of the Future">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="great fat man with a monstrous chin">
+      <data key="d0">Person</data>
+    </node>
+    <node id="red-faced gentleman with a pendulous excrescence on the end of his nose">
+      <data key="d0">Person</data>
+    </node>
+    <node id="first speaker">
+      <data key="d0">Person</data>
+    </node>
+    <node id="men of business">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="Phantom">
+      <data key="d0">Miscellaneous</data>
+    </node>
+    <node id="the town">
+      <data key="d0">Location</data>
+    </node>
+    <node id="the shop">
+      <data key="d0">Object</data>
+    </node>
+    <node id="the grey-haired rascal">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Mrs. Dilber">
+      <data key="d0">Person</data>
+    </node>
+    <node id="laundress">
+      <data key="d0">Person</data>
+    </node>
+    <node id="old Joe">
+      <data key="d0">Person</data>
+    </node>
+    <node id="charwoman">
+      <data key="d0">Person</data>
+    </node>
+    <node id="the laundress">
+      <data key="d0">Person</data>
+    </node>
+    <node id="undertaker's man">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="woman">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Joe">
+      <data key="d0">Person</data>
+    </node>
+    <node id="ladies">
+      <data key="d0">Person</data>
+    </node>
+    <node id="the woman">
+      <data key="d0">Person</data>
+    </node>
+    <node id="He">
+      <data key="d0">Person</data>
+    </node>
+    <node id="woman with a laugh">
+      <data key="d0">Person</data>
+    </node>
+    <node id="unhappy man">
+      <data key="d0">Person</data>
+    </node>
+    <node id="himself">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Caroline">
+      <data key="d0">Person</data>
+    </node>
+    <node id="her husband">
+      <data key="d0">Person</data>
+    </node>
+    <node id="her children">
+      <data key="d0">Miscellaneous</data>
+    </node>
+    <node id="Caroline's husband">
+      <data key="d0">Person</data>
+    </node>
+    <node id="the money">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="the debt">
+      <data key="d0">Concept</data>
+    </node>
+    <node id="Cratchit's wife">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Peter">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Mr. Scrooge's nephew">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Cratchit family">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="Ghost of Christmas Yet To Come">
+      <data key="d0">Person</data>
+    </node>
+    <node id="his office">
+      <data key="d0">Location</data>
+    </node>
+    <node id="the house">
+      <data key="d0">Location</data>
+    </node>
+    <node id="the churchyard">
+      <data key="d0">Location</data>
+    </node>
+    <node id="the grave">
+      <data key="d0">Location</data>
+    </node>
+    <node id="his name on the stone">
+      <data key="d0">Location</data>
+    </node>
+    <node id="The Spirit">
+      <data key="d0">Miscellaneous</data>
+    </node>
+    <node id="corner">
+      <data key="d0">Object</data>
+    </node>
+    <node id="Poulterer's">
+      <data key="d0">Organization</data>
+    </node>
+    <node id="Turkey">
+      <data key="d0">Location</data>
+    </node>
+    <node id="Joe Miller">
+      <data key="d0">Person</data>
+    </node>
+    <node id="cab">
+      <data key="d0">Object</data>
+    </node>
+    <node id="old gentleman">
+      <data key="d0">Person</data>
+    </node>
+    <edge source="Scrooge" target="Marley">
+      <data key="d1">business partner</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Marley's Ghost">
+      <data key="d1">visited by</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Bob Cratchit">
+      <data key="d1">master</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Tiny Tim">
+      <data key="d1">friend</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Christmas Time">
+      <data key="d1">Setting-Timeframe</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Scrooge" target="Fred">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="nephew">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="City">
+      <data key="d1">is in</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="clerk in the tank">
+      <data key="d1">Occupation-Profession</data>
+      <data key="d2">Occupation-Profession</data>
+    </edge>
+    <edge source="Scrooge" target="Marley's clerk">
+      <data key="d1">employee</data>
+      <data key="d2">Occupation-Profession</data>
+    </edge>
+    <edge source="Scrooge" target="clerk">
+      <data key="d1">creditor</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Past">
+      <data key="d1">Setting-Timeframe</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Scrooge" target="Present">
+      <data key="d1">Setting-Timeframe</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Scrooge" target="Future">
+      <data key="d1">Setting-Timeframe</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Scrooge" target="gentleman">
+      <data key="d1">counterpart</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="gentlemen">
+      <data key="d1">Occupation-Profession</data>
+      <data key="d2">Occupation-Profession</data>
+    </edge>
+    <edge source="Scrooge" target="labourers">
+      <data key="d1">employer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="his chambers">
+      <data key="d1">lives in</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="the yard">
+      <data key="d1">owns</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Scrooge" target="Marley's face">
+      <data key="d1">looked at</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="door">
+      <data key="d1">Location-Association</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="candle">
+      <data key="d1">lit</data>
+      <data key="d2">Event-Occurrence</data>
+    </edge>
+    <edge source="Scrooge" target="hall">
+      <data key="d1">walked across</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="saucepan">
+      <data key="d1">Item-Possession</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Scrooge" target="gruel">
+      <data key="d1">item</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Scrooge" target="cravat">
+      <data key="d1">item</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Scrooge" target="dressing-gown">
+      <data key="d1">item</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Scrooge" target="slippers">
+      <data key="d1">item</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Scrooge" target="nightcap">
+      <data key="d1">item</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Scrooge" target="bell">
+      <data key="d1">Item-Possession</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Scrooge" target="chain">
+      <data key="d1">Item-Possession</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Scrooge" target="Ghost of Jacob Marley">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="Jacob Marley">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="Jacob">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="Business">
+      <data key="d1">Occupation-Profession</data>
+      <data key="d2">Occupation-Profession</data>
+    </edge>
+    <edge source="Scrooge" target="Ebenezer">
+      <data key="d1">friend</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Ghost of Christmas Present">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="Three Spirits">
+      <data key="d1">haunter</data>
+      <data key="d2">Event-Occurrence</data>
+    </edge>
+    <edge source="Scrooge" target="wandering Spirits">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="window">
+      <data key="d1">Location-Association</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="night">
+      <data key="d1">Location-Association</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Scrooge" target="Christmas Day">
+      <data key="d1">celebrant</data>
+      <data key="d2">Event-Occurrence</data>
+    </edge>
+    <edge source="Scrooge" target="clock">
+      <data key="d1">correction</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="repeater">
+      <data key="d1">use</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Mr. Ebenezer Scrooge">
+      <data key="d1">payee of</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Scrooge" target="Ghost of Christmas Past">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="boy">
+      <data key="d1">payer</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Scrooge" target="road">
+      <data key="d1">location</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="market-town">
+      <data key="d1">destination</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="bridge">
+      <data key="d1">feature</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="church">
+      <data key="d1">feature</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="winding river">
+      <data key="d1">feature</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="gate">
+      <data key="d1">feature</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="post">
+      <data key="d1">feature</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="tree">
+      <data key="d1">feature</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="Spirit">
+      <data key="d1">observer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Ali Baba">
+      <data key="d1">character-affiliation</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="Valentine">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="Orson">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="Robin Crusoe">
+      <data key="d1">character-affiliation</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="Parrot">
+      <data key="d1">character-relationship</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Friday">
+      <data key="d1">character-relationship</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Dick Wilkins">
+      <data key="d1">employer</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="Fezziwig">
+      <data key="d1">employer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Girl">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="Belle">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="his wife">
+      <data key="d1">husband</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="adjacent room">
+      <data key="d1">location</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="voice">
+      <data key="d1">relation</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Christmas morning">
+      <data key="d1">location</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Scrooge" target="city streets">
+      <data key="d1">location</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Scrooge" target="Great Britain">
+      <data key="d1">location</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Scrooge" target="bakers">
+      <data key="d1">customer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Christmas goose">
+      <data key="d1">disbelief</data>
+      <data key="d2">Personality-Trait</data>
+    </edge>
+    <edge source="Scrooge" target="Mrs. Cratchit">
+      <data key="d1">family member</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Bob">
+      <data key="d1">friend</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Miners">
+      <data key="d1">employer</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="niece">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="plump sister">
+      <data key="d1">sister</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Topper">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="the plump sister">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="Uncle Scrooge">
+      <data key="d1">character-affiliation</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="girl">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="Ignorance">
+      <data key="d1">employer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Want">
+      <data key="d1">employer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Doom">
+      <data key="d1">cause</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Ghost of Christmas Yet to Come">
+      <data key="d1">interactor</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Ghost of the Future">
+      <data key="d1">speaks to</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="great fat man with a monstrous chin">
+      <data key="d1">friend</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="red-faced gentleman with a pendulous excrescence on the end of his nose">
+      <data key="d1">friend</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="first speaker">
+      <data key="d1">friend</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="men of business">
+      <data key="d1">employer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="Phantom">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="the town">
+      <data key="d1">Location-Association</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Scrooge" target="the shop">
+      <data key="d1">Location-Association</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Scrooge" target="the grey-haired rascal">
+      <data key="d1">Occupation-Profession</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="old Joe">
+      <data key="d1">employer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="woman with a laugh">
+      <data key="d1">customer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="unhappy man">
+      <data key="d1">potential self</data>
+      <data key="d2">Plot-Development</data>
+    </edge>
+    <edge source="Scrooge" target="himself">
+      <data key="d1">person in danger</data>
+      <data key="d2">Plot-Development</data>
+    </edge>
+    <edge source="Scrooge" target="Ghost of Christmas Yet To Come">
+      <data key="d1">Occupation-Profession</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="his office">
+      <data key="d1">occupant</data>
+      <data key="d2">Occupation-Profession</data>
+    </edge>
+    <edge source="Scrooge" target="the house">
+      <data key="d1">owner</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="the churchyard">
+      <data key="d1">visitor</data>
+      <data key="d2">Event-Occurrence</data>
+    </edge>
+    <edge source="Scrooge" target="the grave">
+      <data key="d1">subject</data>
+      <data key="d2">Plot-Development</data>
+    </edge>
+    <edge source="Scrooge" target="his name on the stone">
+      <data key="d1">subject</data>
+      <data key="d2">Plot-Development</data>
+    </edge>
+    <edge source="Scrooge" target="Spirits of all Three">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="corner">
+      <data key="d1">Location-Association</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge" target="Poulterer's">
+      <data key="d1">customer</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge" target="Turkey">
+      <data key="d1">owner</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Scrooge" target="Joe Miller">
+      <data key="d1">reference</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge" target="cab">
+      <data key="d1">payer</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Scrooge" target="old gentleman">
+      <data key="d1">Friend</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Marley" target="Scrooge">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Marley's Ghost" target="wandering Spirits">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Marley's Ghost" target="Scrooge">
+      <data key="d1">visited by</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Bob Cratchit" target="Tiny Tim">
+      <data key="d1">Parent-Child</data>
+      <data key="d2">Family-Relationship</data>
+    </edge>
+    <edge source="Bob Cratchit" target="Fred">
+      <data key="d1">colleague</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Bob Cratchit" target="Martha">
+      <data key="d1">son</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Bob Cratchit" target="Cratchits">
+      <data key="d1">family member</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Bob Cratchit" target="Christmas Day">
+      <data key="d1">Event-Occurrence</data>
+      <data key="d2">Plot-Development</data>
+    </edge>
+    <edge source="Bob Cratchit" target="Christmas pudding">
+      <data key="d1">appreciation</data>
+      <data key="d2">Personality-Trait</data>
+    </edge>
+    <edge source="Bob Cratchit" target="Mrs. Cratchit">
+      <data key="d1">Spouse-Relationship</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Bob Cratchit" target="Peter Cratchit">
+      <data key="d1">son</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Bob Cratchit" target="Peter">
+      <data key="d1">Family-Relationship</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Bob Cratchit" target="Scrooge">
+      <data key="d1">salary receiver</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Tiny Tim" target="Christmas Day">
+      <data key="d1">Event-Occurrence</data>
+      <data key="d2">Plot-Development</data>
+    </edge>
+    <edge source="Tiny Tim" target="Bob Cratchit">
+      <data key="d1">parent</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Tiny Tim" target="family">
+      <data key="d1">member</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Tiny Tim" target="Christmas Time">
+      <data key="d1">associated with</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Jacob Marley" target="Marley's Ghost">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Jacob Marley" target="Mankind">
+      <data key="d1">Occupation-Profession</data>
+      <data key="d2">Occupation-Profession</data>
+    </edge>
+    <edge source="Jacob Marley" target="Charity">
+      <data key="d1">Personality-Trait</data>
+      <data key="d2">Personality-Trait</data>
+    </edge>
+    <edge source="Jacob Marley" target="Scrooge">
+      <data key="d1">predictor</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Christmas Time" target="Past">
+      <data key="d1">associated_with</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Christmas Time" target="Present">
+      <data key="d1">associated_with</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Christmas Time" target="Future">
+      <data key="d1">associated_with</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Fred" target="Christmas Day">
+      <data key="d1">Event-Occurrence</data>
+      <data key="d2">Plot-Development</data>
+    </edge>
+    <edge source="Scrooge's nephew" target="Scrooge">
+      <data key="d1">family relationship</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge's nephew" target="Fred">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge's nephew" target="niece">
+      <data key="d1">laughing together</data>
+      <data key="d2">Event-Occurrence</data>
+    </edge>
+    <edge source="Scrooge's nephew" target="nephew">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge's nephew" target="plump sister">
+      <data key="d1">cousin</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge's nephew" target="Bob Cratchit">
+      <data key="d1">brother-in-law</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge's nephew" target="Ghost of Christmas Present">
+      <data key="d1">business partner</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Scrooge's nephew" target="Cratchit family">
+      <data key="d1">helped</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="labourers" target="men and boys">
+      <data key="d1">colleague</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Lord Mayor" target="cooks and butlers">
+      <data key="d1">boss</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="little tailor" target="wife and baby">
+      <data key="d1">family member</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Marley's face" target="Scrooge">
+      <data key="d1">looked at</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="saucepan" target="Mrs. Cratchit">
+      <data key="d1">owned by</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Ghost of Jacob Marley" target="Scrooge">
+      <data key="d1">visit</data>
+      <data key="d2">Event-Occurrence</data>
+    </edge>
+    <edge source="Ghost of Jacob Marley" target="Past">
+      <data key="d1">Event-Occurrence</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Ghost of Jacob Marley" target="Spirits of all Three">
+      <data key="d1">related to</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Ghost of Christmas Present" target="Scrooge">
+      <data key="d1">age information</data>
+      <data key="d2">Age-Information</data>
+    </edge>
+    <edge source="Ghost of Christmas Present" target="Christmas Time">
+      <data key="d1">associated with</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Ghost of Christmas Present" target="Past">
+      <data key="d1">associated with</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Ghost of Christmas Present" target="Present">
+      <data key="d1">associated with</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Ghost of Christmas Present" target="the plump sister">
+      <data key="d1">pursuer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Christmas Day" target="Bob Cratchit">
+      <data key="d1">occurred to</data>
+      <data key="d2">Event-Occurrence</data>
+    </edge>
+    <edge source="Ghost of Christmas Past" target="Jacob Marley">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="boy" target="road">
+      <data key="d1">location</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="boy" target="market-town">
+      <data key="d1">destination</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="boy" target="bridge">
+      <data key="d1">feature</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="boy" target="church">
+      <data key="d1">feature</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="boy" target="winding river">
+      <data key="d1">feature</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="boy" target="gate">
+      <data key="d1">feature</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="boy" target="post">
+      <data key="d1">feature</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="boy" target="tree">
+      <data key="d1">feature</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="boy" target="door">
+      <data key="d1">location-association</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="boy" target="window">
+      <data key="d1">location-association</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="boy" target="Fan">
+      <data key="d1">brother</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="boy" target="Father">
+      <data key="d1">child</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="boy" target="Scrooge">
+      <data key="d1">employee</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="boy" target="girl">
+      <data key="d1">Personality-Trait</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Spirit" target="dinner-carriers">
+      <data key="d1">helper</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Ali Baba" target="boy">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Valentine" target="Orson">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooe" target="Christmas Time">
+      <data key="d1">event-occurrence</data>
+      <data key="d2">Event-Occurrence</data>
+    </edge>
+    <edge source="Scrooe" target="boy singing a Christmas Carol">
+      <data key="d1">event-occurrence</data>
+      <data key="d2">Event-Occurrence</data>
+    </edge>
+    <edge source="Scrooe" target="Ghost of Christmas Present">
+      <data key="d1">plot-development</data>
+      <data key="d2">Plot-Development</data>
+    </edge>
+    <edge source="Scrooe" target="door">
+      <data key="d1">setting-timeframe</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Scrooe" target="Christmas Day">
+      <data key="d1">event-occurrence</data>
+      <data key="d2">Event-Occurrence</data>
+    </edge>
+    <edge source="Master Scrooge" target="schoolmaster">
+      <data key="d1">teacher-student relationship</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Fezziwig" target="Dick">
+      <data key="d1">friend</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Fezziwig" target="Ebenezer">
+      <data key="d1">host</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Fezziwig" target="the lads">
+      <data key="d1">boss</data>
+      <data key="d2">Occupation-Profession</data>
+    </edge>
+    <edge source="Fezziwig" target="Mrs. Fezziwig">
+      <data key="d1">couple</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Fezziwig" target="Miss Fezziwigs">
+      <data key="d1">family member</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Fezziwig" target="young men and women employed in the business">
+      <data key="d1">employer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Fezziwig" target="fiddler">
+      <data key="d1">host</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Fezziwig" target="housemaid">
+      <data key="d1">employer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Fezziwig" target="cook">
+      <data key="d1">employer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Fezziwig" target="Mr. Fezziwig">
+      <data key="d1">spouse</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Fezziwig" target="apprentices">
+      <data key="d1">employer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="housemaid" target="cousin the baker">
+      <data key="d1">relative</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="cook" target="brother's particular friend the milkman">
+      <data key="d1">family member</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="boy from over the way" target="master">
+      <data key="d1">employee</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="girl from next door but one" target="mistress">
+      <data key="d1">employee</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Girl" target="Scrooge">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Belle" target="Mr. Scrooge">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Marley's partner" target="Marley">
+      <data key="d1">business partner</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="people" target="shopkeepers">
+      <data key="d1">Character-Affiliation</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="poulterers" target="fruiterers">
+      <data key="d1">Character-Affiliation</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="girl" target="boy">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Grocer" target="people">
+      <data key="d1">employee</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Grocer" target="aprons">
+      <data key="d1">owner</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="customers" target="each other">
+      <data key="d1">collision</data>
+      <data key="d2">Event-Occurrence</data>
+    </edge>
+    <edge source="customers" target="counter">
+      <data key="d1">purchase</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Mrs. Cratchit" target="Bob Cratchit">
+      <data key="d1">affection</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Mrs. Cratchit" target="Martha">
+      <data key="d1">mother</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Mrs. Cratchit" target="Tiny Tim">
+      <data key="d1">mother</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Mrs. Cratchit" target="Christmas Day">
+      <data key="d1">host</data>
+      <data key="d2">Event-Occurrence</data>
+    </edge>
+    <edge source="Mrs. Cratchit" target="Christmas pudding">
+      <data key="d1">item-poseession</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Mrs. Cratchit" target="family">
+      <data key="d1">family member</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Belinda Cratchit" target="Bob Cratchit">
+      <data key="d1">sister</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Master Peter Cratchit" target="Bob Cratchit">
+      <data key="d1">son</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Master Peter Cratchit" target="Tiny Tim">
+      <data key="d1">brother</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Martha" target="Bob Cratchit">
+      <data key="d1">child</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Martha" target="Mrs. Cratchit">
+      <data key="d1">child</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Martha" target="milliner">
+      <data key="d1">employee</data>
+      <data key="d2">Occupation-Profession</data>
+    </edge>
+    <edge source="Master Peter" target="Mrs. Cratchit">
+      <data key="d1">child</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Miss Belinda" target="Mrs. Cratchit">
+      <data key="d1">child</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Bob" target="Tiny Tim">
+      <data key="d1">caregiver</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Miners" target="earth">
+      <data key="d1">workplace</data>
+      <data key="d2">Location-Association</data>
+    </edge>
+    <edge source="Scrooge's niece" target="Fred">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge's niece" target="sister">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Scrooge's niece" target="Scrooge">
+      <data key="d1">family member</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Topper" target="the plump sister">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Topper" target="Scrooge's nephew">
+      <data key="d1">business partner</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Ignorance" target="Want">
+      <data key="d1">companion</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="great fat man with a monstrous chin" target="red-faced gentleman with a pendulous excrescence on the end of his nose">
+      <data key="d1">acquaintance</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="men of business" target="each other">
+      <data key="d1">colleagues</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Mrs. Dilber" target="laundress">
+      <data key="d1">Occupation-Profession</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Mrs. Dilber" target="undertaker's man">
+      <data key="d1">Occupation-Profession</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Mrs. Dilber" target="old Joe">
+      <data key="d1">friend</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Mrs. Dilber" target="woman">
+      <data key="d1">friend</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Mrs. Dilber" target="Joe">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Mrs. Dilber" target="Scrooge">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="old Joe" target="charwoman">
+      <data key="d1">Occupation-Profession</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="old Joe" target="Mrs. Dilber">
+      <data key="d1">friend</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="old Joe" target="ladies">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="old Joe" target="woman with a laugh">
+      <data key="d1">business partner</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="the laundress" target="laundress">
+      <data key="d1">Occupation-Profession</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="woman" target="old Joe">
+      <data key="d1">friend</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="the woman" target="He">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="the woman" target="Joe">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Caroline" target="her husband">
+      <data key="d1">spouse</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Caroline" target="her children">
+      <data key="d1">parent</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Caroline" target="the debt">
+      <data key="d1">creditor</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Caroline's husband" target="Caroline">
+      <data key="d1">wife</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Caroline's husband" target="the money">
+      <data key="d1">debtor</data>
+      <data key="d2">Item-Possession</data>
+    </edge>
+    <edge source="Caroline's husband" target="Jacob Marley">
+      <data key="d1">creditor</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Caroline's husband" target="Christmas Time">
+      <data key="d1">timeframe</data>
+      <data key="d2">Setting-Timeframe</data>
+    </edge>
+    <edge source="Cratchit's wife" target="Bob Cratchit">
+      <data key="d1">Character-Relationship</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="Peter" target="Bob Cratchit">
+      <data key="d1">Child-Parent</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Peter" target="Scrooge">
+      <data key="d1">friend</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="Mr. Scrooge's nephew" target="Bob Cratchit">
+      <data key="d1">helped</data>
+      <data key="d2">Character-Affiliation</data>
+    </edge>
+    <edge source="The Spirit" target="the grave">
+      <data key="d1">pointer</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+    <edge source="The Spirit" target="Scrooge">
+      <data key="d1">guide</data>
+      <data key="d2">Character-Relationship</data>
+    </edge>
+  </graph>
+</graphml>

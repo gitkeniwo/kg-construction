@@ -1,0 +1,221 @@
+system: >
+  You are an expert at NLP and relation extraction from text documents.
+
+input-variables:
+  - doc_summary
+  - global_entities
+  - current_chunk
+
+relation-types:
+  - Character-Affiliation
+  - Character-Relationship
+  - Location-Association
+  - Event-Occurrence
+  - Item-Possession
+  - Personality-Trait
+  - Age-Information
+  - Occupation-Profession
+  - Conflict-Involvement
+  - Plot-Development
+  - Setting-Timeframe
+
+# chunk-level relation extraction
+chunk-relation-extraction-basic: |
+  
+  Your task is to extract relation triplets from a chunk of text that is part of a larger document. You will be provided with:
+
+  1. The current chunk of text
+  2. A list of relation types to look for
+  3. A list of known entities 
+  
+  Your goal is to check the text, and find which relations can be derived from the text.
+  
+  Please follow these steps:
+  
+  1. Extract all relations tuples between entities within this chunk. Your output format is in python list, shown as below:
+  [("entity 1", "entity 2", "relation1", "relation-type"),
+  ("entity 3", "entity 4", "relation2", "relation-type"),
+  ...]
+  
+  2. Identify the subject and object entity (put in position 1 and 2)
+  3. Specify the relation in position and relation type in position 4
+  4. Answer directly without using introductory phrases and without any other remarks or comments. Just the extracted relations tuples.
+  5. No duplicates or semantically similar relations should be included. Try to keep the most informative relations.
+  
+  one example like:
+  
+  [("Scrooge", "Bob Cratchit", "employer", "Character-Relationship"),
+  ("Scrooge", "Marley", "business partner", "Character-Relationship"),
+  ...]
+  
+  Current Chunk Text:
+  {current_chunk}
+  
+  Relation types:
+  {relation_types}
+  
+  Known Entities:
+  {global_entities}
+
+chunk-relation-extraction-without-global-entity: |
+  
+  Your task is to extract relation triplets from a chunk of text that is part of a larger document. You will be provided with:
+
+  1. The current chunk of text
+  2. A list of relation types to look for
+  
+  Your goal is to check the text, and find which relations can be derived from the text.
+  
+  Please follow these steps:
+  
+  1. Extract all relations tuples between entities within this chunk. Your output format is in python list, shown as below:
+  [("entity 1", "entity 2", "relation1", "relation-type"),
+  ("entity 3", "entity 4", "relation2", "relation-type"),
+  ...]
+  
+  2. Identify the subject and object entity (put in position 1 and 2)
+  3. Specify the relation in position and relation type in position 4
+  4. Answer directly without using introductory phrases and without any other remarks or comments. Just the extracted relations tuples.
+  5. No duplicates or semantically similar relations should be included. Try to keep the most informative relations.
+  
+  one example like:
+  
+  [("Scrooge", "Bob Cratchit", "employer", "Character-Relationship"),
+  ("Scrooge", "Marley", "business partner", "Character-Relationship"),
+  ...]
+  
+  Current Chunk Text:
+  {current_chunk}
+  
+  Relation types:
+  {relation_types}
+  
+
+relation-extraction-with-summary: |
+  
+  Your task is to extract relations from a chunk of text that is part of a larger document. You will be provided with:
+
+  1. A brief summary of the entire document
+  2. The current chunk of text
+  3. Information about the chunk's position in the document
+  4. A list of known entities from previous chunks (if applicable)
+  
+  Your goal is to:
+  1. Identify entities and extract relations between these entities
+  2. Note any potential coreferences to entities or information outside this chunk provided with global entity list
+  
+  Please follow these steps:
+  
+  1. Extract all relations between entities within this chunk. For each relation:
+    a. Output in the format ("entity 1", "entity 2", "relation", "confidence-score"), each on a new line
+    b. Identify the subject and object entity (put in position 1 and 2)
+    c. Specify the relation (put in position 3)
+    d. Provide a confidence score ("high", "medium", "low")
+  2. Answer directly without using introductory phrases and without any other remarks or comments.
+  3. Identify any potential coreferences or references to entities that might be defined in other parts of the document or outside the current chunk.
+  4. If any entities match those in the provided list of known entities, use the existing identifiers for consistency.
+    
+  Document Summary:
+  {doc_summary}
+  
+  Chunk Metadata:
+  - Chunk Number: [Insert chunk number]
+  - Total Chunks: [Insert total number of chunks]
+  - Previous Chunk Topic (if known): [Insert brief description of previous chunk's main topic]
+  - Next Chunk Topic (if known): [Insert brief description of next chunk's main topic]
+  
+  Known Global Entities:
+  {global_entities}
+  
+  Current Chunk Text:
+  {current_chunk}
+  
+
+assign-entity-types: |
+
+  You are provided with one entity extracted from a document.
+  
+  You are also provided with a list of possible entity types.
+  
+  Your task is to assign the correct entity type to each entity in the list. 
+  Remember, for the answer, you can only choose one entity type from the provided entity types!
+  
+  For example, with the input:
+    Scrooge
+  
+  Your answer should be:
+    Person
+  
+  For another example, with the input:
+    London
+  
+  Your answer should be:
+    Location
+  
+  Answer directly without using introductory phrases and without any other remarks or comments.
+  
+  The entity extracted from the text is:
+    {entity}
+  
+  The selectable entity types are:
+    {entity_types}
+
+
+
+
+# final round: merge local entities
+# for example: "scrooge's nephew" is first identified as an entity,
+relation-consolidation:
+  system: > 
+    You are an expert in natural language processing and information extraction. 
+    Your task is to consolidate and reconcile relations extracted from multiple chunks of a long document.
+  human: |
+    You will be provided with:
+  
+    1. A brief summary of the entire document
+    2. A list of global entities identified across all chunks
+    3. Relations extracted from individual chunks
+  
+    Your goal is to:
+    1. Combine relations across chunks
+    2. Resolve coreferences
+    3. Identify long-range dependencies
+    4. Ensure consistency in the final set of relations
+  
+    Please follow these steps:
+  
+    1. Review the document summary and global entity list to understand the overall context.
+    2. For each relation provided:
+       a. Check if the entities involved are coreferent with any global entities.
+       b. If so, update the relation to use the global entity identifier.
+       c. If not, add the new entity to the global entity list.
+    3. Identify and merge duplicate relations, keeping only the most informative version.
+    4. Look for potential long-range dependencies by:
+       a. Identifying relations with similar subjects or objects across different chunks.
+       b. Checking for transitive relations (e.g., if A relates to B, and B relates to C, consider if A might relate to C).
+    5. Resolve any conflicting relations by:
+       a. Prioritizing relations from more reliable or recent parts of the document.
+       b. Noting any unresolvable conflicts for human review.
+  
+    6. Provide a final list of consolidated relations, each including:
+       - Subject entity (with global identifier)
+       - Relation type
+       - Object entity (with global identifier)
+       - Confidence score (if available)
+       - Source chunk(s) where the relation was found
+  
+    7. Highlight any relations that span multiple chunks or involve long-range dependencies.
+  
+    8. Note any ambiguities or areas where human verification might be needed.
+  
+    Document Summary:
+    [Insert brief summary of the entire document]
+  
+    Global Entity List:
+    [Insert list of global entities with their identifiers]
+  
+    Extracted Relations:
+    [Insert list of relations extracted from individual chunks, including the chunk identifier for each]
+  
+    Please provide your consolidated and reconciled list of relations based on this information.
+

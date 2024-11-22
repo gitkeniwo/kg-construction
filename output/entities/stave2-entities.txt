@@ -1,0 +1,1 @@
+[("Jacob Marley", "Person"), ("Ebenezer Scrooge", "Person"), ("Ghost of Christmas Past", "Person"), ("Spirit", "Person"), ("Night", "Concept"), ("Day", "Concept"), ("Fog", "Concept"), ("Church", "Location"), ("Window", "Object")]
