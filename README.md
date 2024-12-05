@@ -70,12 +70,23 @@ streamlit run showcase.py
 
 #### Neo4j 
 
+
 The notebook also provides a guide on how to export the networkx graph to a neo4j database. 
 
 ![image](https://github.com/user-attachments/assets/d75bac19-d456-4fd8-ad5a-160518a7f92a)
 
-
 You can choose between a local neo4j instance or a free-tier AuraDB instance.
+
+##### Recommended: docker compose
+
+It is recommended to use docker-compose to start a local neo4j instance with APOC plugin enabled. To initialize the neo4j instance,
+create a `~/neo4j` directory and move the `compose.yaml` file to the directory. Then run:
+
+```bash
+docker compose up
+```
+
+##### Local Neo4j Instance
 
 To set a local neo4j instance, you can follow the instructions on their [official website](https://neo4j.com/download/).
 
@@ -91,6 +102,7 @@ and start the neo4j console:
 neo4j console
 ```
 
+#####  AuraDB
 and fill in your credentials in the notebook to connect to the local neo4j instance.
 
 To set up a free-tier AuraDB instance, you can follow the instructions on their [official website](https://neo4j.com/aura/),
